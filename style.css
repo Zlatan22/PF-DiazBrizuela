@@ -1,8 +1,11 @@
 body{
-    background-color: rgba(227, 255, 255, 1);
+    background-color: rgb(204, 232, 232);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
-
+    border-right: solid;
+    border-left: solid;
+    border-color: black;
+    border-width: 5px;
 }
 header{
     width: 100%;

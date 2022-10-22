@@ -24,7 +24,7 @@ h1{
 }
 h2{
     font-size: 35px;
-    margin-top: 200px;
+    margin-top: 20px;
     text-align: center;
 }
 img{
@@ -57,13 +57,21 @@ div{
     text-align: center;
     margin: 25px;
 }
-.footer{
+.centrar{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.pie-de-pagina{
     list-style: none;
     margin-left: 20px;
     padding: 14px;
 }
 .colorfooter{
    background-color: antiquewhite;
+   margin: 0;
 }
 .index{
     text-align: left;
@@ -114,7 +122,30 @@ div{
     display: flex;
     flex-direction: row-reverse;
 }
-
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: rgba(229, 229, 255, 0.943);
+    border-radius: 16px;
+    width: 270px;
+    height: 400px;
+    margin: 20px;
+}
+.imagen-card{
+    margin: 0;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.habitos{
+    background-image: url('./images/el-poder-de-los-habitos.jpg');
+}
+.dopamina{
+    background-image: url('./images/Adicción-a-la-Dopamina.jpg');
+}
 #login{
     width: 400px;
     height: 500px;
